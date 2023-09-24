@@ -1,4 +1,4 @@
-# time complexity -- n   , 2n,n/2
+# time complexity -- n   , 2n,n/2,n**2
 # space complexity 
 # space - time trade off (space more time less) (time more space less)
 # prefer time over space 

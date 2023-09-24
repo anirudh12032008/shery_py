@@ -18,6 +18,3 @@
 # if else expression
 # global keyword in function 
 # function inside function 
-
-
-# string ifelse loop function 
