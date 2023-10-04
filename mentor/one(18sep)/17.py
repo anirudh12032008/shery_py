@@ -1,4 +1,5 @@
 # Question -  Accept the parameters and calculate the Compound Interest & print it on STDOUT .
+import math
 def calc_compound(principal, rate, time):
     CI = principal * ((1 + rate / 100) ** time) - principal
     return CI
