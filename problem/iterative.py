@@ -117,13 +117,14 @@ n = int(input("Enter the num: "))
 # 30) Accept a number and check if it is a pallindromic number (If number and its reverse are equal)
 #        Ex - 12321 - Rerverse - 12321
 
-x=0
-new =0
-while n != 0:
-    x= n%10
-    n = n//10
-    new = new *10 + x
-if new==n:
-    print("Yes it is a Palindromic Number")
-else:
-    print("No it is not a plaindromic number")
+# x=0
+# new =0
+# num = n
+# while n != 0:
+#     x= n%10
+#     n = n//10
+#     new = new *10 + x
+# if new==num:
+#     print("Yes it is a Palindromic Number")
+# else:
+#     print("No it is not a plaindromic number")
