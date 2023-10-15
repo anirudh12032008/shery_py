@@ -40,21 +40,58 @@ s = input("Enter the string: ")
 # print("Digits =", dig)
 # print("Symbol =", sym)
 
-# 34) Compare two strings without using inbuilt functionsx
-
+# # 34) Compare two strings without using inbuilt functionsx
+# a = 'llohe'
+# if len(a)!=len(s):
+#     print("Not smilar")
+# else:     
+#     similar = False
+#     for i in s:
+#         if i in a:
+#             similar = True
+#             continue
+    #     else:
+    #         similar = False
+    #         break
+    # if similar: 
+    #     for i in a:
+    #         if i in s:
+    #             similar = True
+    #             continue
+    #         else:
+    #             similar = False
+    #             break
+    # if similar:
+    #     print("Similar")
+    # else:
+    #     print("Not similar")
+        
 
 # 35) Count Vowels from given string
 # vow = 0
 # for i in s:
-#     if i in "aeiou":
+#     if i in "aeiouAEIOU":
 #         vow += 1
 # print(vow)
 
 # 36) Reverse a string
 # print(s[::-1])
-
+# rev = ""
+# for i in range(len(s)-1,-1,-1):
+#     rev += s[i]
+# print(rev)
 # 37) Check string is Pallindrome or not**
 # if s==s[::-1]:
 #     print(f"{s} is a Pallindrome")
 # else:
 #     print(f"{s} is not a Pallindrome")
+
+# rev = ""
+# for i in range(len(s)-1,-1,-1):
+#     rev += s[i]
+# if rev==s:print('Pallindrome')
+
+
+
+
+

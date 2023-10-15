@@ -89,19 +89,35 @@ n = int(input("Enter the num: "))
     
 # 27) Seprate each digit of a number and print it on the new line
 # n = input("Enter a num: ")
-# for i in n:
-#     print(i)
+# x=0
+# new =0
+# while n != 0:
+#     x= n%10
+#     n = n//10
+#     print(x)
+    
 
 # 28) Check if the number is Prime or not.
-# prime= True
+# # using while loop
+# notPrime = True
+# i=1
+# while notPrime:
+#     if n>i+1:  
+#         i+=1
+#         if n%i ==0 :
+#             print("Not Prime")
+#             break
+#     else:
+#         print("Prime")
+#         break
+# using for loop
 # for i in range(2,(n//2)+1):
 #     if n%i == 0:
-#         prime = False
+#         print("Not Prime")
 #         break
-# if prime :
-#     print(f"{n} is a Prime Number")
 # else:
-#     print(f"{n} is not a prime number")
+#     print("Prime")
+        
 
 # 29) Accept a number and print its reverse
 
@@ -128,3 +144,14 @@ n = int(input("Enter the num: "))
 #     print("Yes it is a Palindromic Number")
 # else:
 #     print("No it is not a plaindromic number")
+
+# 31) Tell all the prime numbers in a given range
+# for s in range(2,n+1):
+#     c = 0
+#     for i in range(2,(s//2)+1):
+#         if s%i == 0:
+#             c +=1
+#             break
+#     if c==0:
+#         print(s,"Prime")
+        

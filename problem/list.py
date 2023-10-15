@@ -57,7 +57,7 @@ l = [2, 96, 69, 77, 145, 20]
 # else:
     # print("The list is not sorted")
 # 48) Pallindromic List - Write a program to check if elements of an List are same or not it read from front or bacExample : arr= [2,3,15,15,3,2]
-# if l == l[::-1]:
-    # print("Pallindrom list")
-# else:
-    # print("Not a pallindrom list")
+if l == l[::-1]:
+    print("Pallindrom list")
+else:
+    print("Not a pallindrom list")
