@@ -1,5 +1,5 @@
 # 16) Accept an integer and Print hello world n times
-n = int(input("Enter the num: "))
+# n = int(input("Enter the num: "))
 # for i in range(n):
     # print("Hello World")
     
@@ -137,6 +137,7 @@ n = int(input("Enter the num: "))
 # new =0
 # num = n
 # while n != 0:
+
 #     x= n%10
 #     n = n//10
 #     new = new *10 + x
@@ -146,12 +147,37 @@ n = int(input("Enter the num: "))
 #     print("No it is not a plaindromic number")
 
 # 31) Tell all the prime numbers in a given range
-# for s in range(2,n+1):
-#     c = 0
-#     for i in range(2,(s//2)+1):
-#         if s%i == 0:
-#             c +=1
-#             break
-#     if c==0:
-#         print(s,"Prime")
+n=10
+t=0
+for s in range(2,n+1):
+    
+    
+
+    c = 0
+    for i in range(2,(s//2)+1):
+        if s%i == 0:
+            c +=1
+            break
+    if c==0:
+        t+=s
         
+        print(s,"Prime")
+print(t)
+# import random
+# att = 5
+# win = False
+# x = random.randint(0,101)
+# while not win:
+#     n = int(input("Enter the num (1-100):\n"))
+    
+#     att-=1
+#     if att==0:
+#         print("Sorry You ran out of attemps")
+#         break
+#     if n==x:
+#         print(f"Congo, You Won in {att} attemps")
+#         break
+#     elif n>x:
+#         print(f"Too big please try something smaller | {att} attemps left ")
+#     else:
+#         print(f"Too small please try something bigger | {att} attemps left ")

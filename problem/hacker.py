@@ -136,17 +136,18 @@
 #     merge_the_tools(string, k)
 
 
-from collections import Counter
-x = int(input())
-money = 0
-shoes = input().split()
-n = int(input())
-need = []
-for i in range(n):
-    s,p = input().split()
-    need+=[[s,p]]
-for i in need:
-    if i[0] in shoes:
-        shoes.remove(i[0])
-        money += int(i[1])
-print(money)
+# from collections import Counter
+# x = int(input())
+
+# money = 0
+# shoes = input().split()
+# n = int(input())
+# need = []
+# for i in range(n):
+#     s,p = input().split()
+#     need+=[[s,p]]
+# for i in need:
+#     if i[0] in shoes:
+#         shoes.remove(i[0])
+#         money += int(i[1])
+# print(money)
