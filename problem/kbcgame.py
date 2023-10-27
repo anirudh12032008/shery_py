@@ -32,7 +32,7 @@ def play_sound(sound_file):
 
 
 def play():
-    play_sound('intro.mp3')
+    play_sound('intro1.mp3')
     qnum = 0
     money = 0
     print('Welcome to KBC')
@@ -41,13 +41,14 @@ def play():
         play_sound('que.mp3')
         time.sleep(2)
         print(f'Question number {qnum+1} for {prize_money[qnum]} Rs \n {questions[qnum][0]}\n {questions[qnum][1]}\t {questions[qnum][2]}\n {questions[qnum][3]} \t {questions[qnum][4]}')
-        user = input('Please Enter A, B, C or D')
+        user = input('Please Enter A, B, C or D \n')
         if user==questions[qnum][5]:
             print(f'Congratulations you won {prize_money[qnum]} Rs \n')
             money = prize_money[qnum]
             qnum += 1
         else:
             print(f'Oh NO this is the wrong answer the correct answer is {questions[qnum][5]} \n You won {money} Rs \n Thank You for playing')
+            time.sleep(10)
             break
 
 play()
